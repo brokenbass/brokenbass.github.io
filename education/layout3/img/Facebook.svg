@@ -1,0 +1,12 @@
+<svg id="Facebook.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.063" height="40.06" viewBox="0 0 40.063 40.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #3b5998;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Facebook_Background" data-name="Facebook Background" class="cls-1" d="M674.8,4797.97A20.03,20.03,0,1,1,654.768,4818,20.034,20.034,0,0,1,674.8,4797.97Z" transform="translate(-654.781 -4797.97)"/>
+  <image id="Facebook" x="14.219" y="11.03" width="11" height="19" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATCAYAAABGKffQAAAAeklEQVQokWP8//8/Aw4QwMDAYIAk9YABpBgNC/z////8f0ywnwmLofPRTIQDdMUKUOuxAzQnOKBZnoAsj80ZyOABMocFajUIM2BxKzL/A8j4Bgx/YwdYQwMnIEkxodBwICU0UMCoYmQAShvI4AMDA8MBJAEQHwIYGBgAdtqlNEP7qYAAAAAASUVORK5CYII="/>
+</svg>

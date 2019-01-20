@@ -1,0 +1,11 @@
+[2019-1-11 14:38:01] layer "hello@treehouse.com": Unsupported extension: com
+[2019-1-11 14:38:01] layer "Google+": Expected end of input but "+" found.
+[2019-1-11 14:38:01] layer "Twitter.svg": Duplicate path: Twitter.svg
+[2019-1-11 14:38:00] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
+[2019-1-11 14:38:01] layer "Google+": Expected end of input but "+" found.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Bevel and Emboss filter effects are not supported by SVG export.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Pattern Overlay effects are not supported by SVG export.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Bevel and Emboss filter effects are not supported by SVG export.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Bevel and Emboss filter effects are not supported by SVG export.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Bevel and Emboss filter effects are not supported by SVG export.
+[2019-1-11 14:38:17] layer "developing_fon.svg": Bevel and Emboss filter effects are not supported by SVG export.

@@ -1,0 +1,19 @@
+<svg id="culture_icon2.svg" xmlns="http://www.w3.org/2000/svg" width="92" height="92" viewBox="0 0 92 92">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9f9;
+        stroke: #777;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #777;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Circle-2" class="cls-1" cx="46.204" cy="46.06" r="42.234"/>
+  <path id="Icon-Graph" class="cls-2" d="M713.128,2893.24a3.585,3.585,0,0,0-3.593,3.58v38.73a3.593,3.593,0,0,0,7.186,0v-38.73A3.584,3.584,0,0,0,713.128,2893.24Zm-13.45,12.78a3.585,3.585,0,0,0-3.593,3.58v25.95a3.593,3.593,0,0,0,7.186,0V2909.6A3.584,3.584,0,0,0,699.678,2906.02Zm-13.453,12.78a3.585,3.585,0,0,0-3.593,3.58v13.17a3.593,3.593,0,0,0,7.186,0v-13.17A3.584,3.584,0,0,0,686.225,2918.8Z" transform="translate(-653.5 -2873.5)"/>
+</svg>

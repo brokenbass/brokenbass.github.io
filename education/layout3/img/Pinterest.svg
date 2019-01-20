@@ -1,0 +1,12 @@
+<svg id="Pinterest.svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40.062" height="40.06" viewBox="0 0 40.062 40.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cb2028;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Pinterest_Background" data-name="Pinterest Background" class="cls-1" d="M724.739,4797.97A20.03,20.03,0,1,1,704.705,4818,20.033,20.033,0,0,1,724.739,4797.97Z" transform="translate(-704.719 -4797.97)"/>
+  <image id="Pinterest" x="11.281" y="10.03" width="17" height="21" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAVCAYAAACg/AXsAAABEElEQVQ4jZ2UgRGCMAxFowuIG+AGOIEdgREYwRHcAJ1EnaBuoBvABuAE8Xr+cjFNlfPf5SpN+wj9sQtmpoxKhCOiHvEgojFZHiAqGmbuOK8zMzu5RwIKLJAKMI8YVK6xIF5tdkaVewtkJe+oyvrU+LlRg4R0YrJAxMq8AZVnVi+JqIILQSec/h6uEMZK+XERv6sAKcTEDeMusfFTT/m0TNKpRgGPWn2DuASRAvS6PnewrdUPiFLZXMZELZqphM1Rul9kQ3qrYxuMUq1Yc1A5pyGyqjma4BakVVXo/8yADp/2WFeBF6e/xlghHpZbFiROhA3bxFxD35rtOgfwq5INbrO/KznOBbxfa7uTu0vSYKYX6QCnrRG5DFkAAAAASUVORK5CYII="/>
+</svg>
