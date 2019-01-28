@@ -307,11 +307,34 @@ template {
   width: 220px;
   padding-top: 45px;
   padding-bottom: 45px;
+  margin-top: 40px;
 }
 @media (max-width: 940px) {
   .logo {
     width: 100%;
     text-align: center;
+  }
+}
+.navigation-button {
+  display: none;
+}
+@media (max-width: 940px) {
+  .navigation-button {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #000;
   }
 }
 .navigation-holder {
@@ -323,6 +346,22 @@ template {
 @media (max-width: 940px) {
   .navigation-holder {
     display: none;
+  }
+}
+@media (max-width: 940px) {
+  .navigation-holder--mobile-open {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #e0d7d7;
+    opacity: 0.95;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
   }
 }
 .navigation-list {
@@ -860,6 +899,12 @@ footer {
   justify-content: center;
   margin-top: 20px;
   width: 100%;
+  margin-bottom: 40px;
+}
+@media (min-width: 940px) {
+  footer {
+    margin-bottom: 0px;
+  }
 }
 .footer-content {
   display: flex;
