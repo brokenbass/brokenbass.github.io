@@ -307,12 +307,12 @@ template {
   width: 220px;
   padding-top: 45px;
   padding-bottom: 45px;
-  margin-top: 40px;
 }
 @media (max-width: 940px) {
   .logo {
     width: 100%;
     text-align: center;
+    margin-top: 40px;
   }
 }
 .navigation-button {
