@@ -335,6 +335,9 @@ template {
     padding-top: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #000;
+    background-color: #e0d7d7;
+    z-index: 9999;
+    opacity: 0.8;
   }
 }
 .navigation-holder {
@@ -362,6 +365,8 @@ template {
     width: 100%;
     text-align: center;
     padding-top: 80px;
+    z-index: 9999;
+    opacity: 0.8;
   }
 }
 .navigation-list {
