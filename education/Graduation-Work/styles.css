@@ -369,7 +369,7 @@ h1, h2 {
 	top: 0;
 	height: 100%;
 	width: 42%;
-	background-image: url("img/Слой 1.png"), url("img/ell1.png");
+	background-image: url("img/piple.png"), url("img/ell1.png");
 	background-repeat: no-repeat no-repeat;
 	background-position: 60px bottom, right bottom;
 	background-size: 63%, contain;
@@ -695,7 +695,6 @@ h1, h2 {
 }
 
 .slider__slider-box {
-	min-width: 370px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
