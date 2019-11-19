@@ -77,7 +77,8 @@ h1, h2 {
 
 @media screen and (max-width: 1100px) {
 	.header__menu {
-		display: block;
+		display: flex;
+		align-items: center;
 	}
 }
 
@@ -92,7 +93,6 @@ h1, h2 {
 @media screen and (max-width: 1100px) {
 	.menu__icon {
 		display: inline-block;
-		margin-top: 10px;
 	}
 }
 
@@ -177,7 +177,7 @@ h1, h2 {
 	list-style-type: none;
 	position: absolute;
 	margin: 0;
-	width: 95vw;
+	width: 90vw;
 	top: 0px;
 	left: 0px;
 	background-color: #c0c0c0;
