@@ -651,6 +651,10 @@ h1, h2 {
 	justify-content: center;
 }
 
+.arrow-slider-left:hover {
+	cursor: pointer;
+}
+
 .arrow-slider-right {
 	position: absolute;
 	top: 120px;
@@ -665,6 +669,10 @@ h1, h2 {
 	height: 60px;
 	display: flex;
 	justify-content: center;
+}
+
+.arrow-slider-right:hover {
+	cursor: pointer;
 }
 
 .bottom-arrow-left {
@@ -995,6 +1003,7 @@ h1, h2 {
 	display: flex;
 	flex-direction: column;
 	padding: 20px;
+	justify-content: center;
 }
 
 .ppopap__form {
@@ -1041,13 +1050,31 @@ h1, h2 {
 
 .learn-more-popap__content {
 	background-color: #FFFFFF;
-	max-width: 400px;
+	max-width: 240px;
 	border-radius: 5px;
 	margin: 20% auto 0;
 	font-size: 20px;
 	color: rgb(137, 147, 173);
 	padding: 15px;
 }
+
+
+.learn-more-popap__label {
+	padding: 20px;
+	max-width: 220px;
+	border:2px dashed grey;
+	border-radius:5px;
+	display:block;
+}
+
+.learn-more-popap__label:hover {
+	border:2px dashed #cbcbcb;
+}
+
+.learn-more-popap__label input {
+	width: 100px;
+}
+
 
 .popap__buttom-popap {
 	margin-top: 20px;
