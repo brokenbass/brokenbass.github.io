@@ -26,14 +26,14 @@ $(document).ready(function() {
 
 
     $('body').on('click', '#learn-more-buttom', function () {
-        $('.learn-more-popap').fadeIn(100);
+        $('.popap').fadeIn(100);
     });
 
     $('body').on('click', '#closed-learn-more-popap', function () {
-        $('.learn-more-popap').fadeOut(200)
+        $('.popap').fadeOut(200)
     });
 
-    $('body').on('click', '#learn-more-popap', function (event) {
+    $('body').on('click', '#popap', function (event) {
         if(event.target == this) {
             $(this).fadeOut(200)
         }
@@ -70,6 +70,9 @@ $(document).ready(function() {
     });
 
 
+    $(function(){
+        $("#number").mask("8(999) 999-9999");
+    });
 
 });
 
