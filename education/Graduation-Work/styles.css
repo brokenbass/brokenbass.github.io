@@ -617,6 +617,11 @@ h1, h2 {
 		font-weight: bold;
 		line-height: 1.106;
 		text-align: center;
+
+	}
+
+	.slider-block__slider-content {
+		padding: 40px 0;
 	}
 }
 
@@ -701,6 +706,18 @@ h1, h2 {
 	.arrow-slider-right {
 		right: 0px;
 	}
+
+	.slider {
+		padding: 0;
+	}
+
+	.main__slider-block {
+		padding: 0 20px;
+	}
+
+	slider-block__slider-content {
+		padding: 0 20px;
+	}
 }
 
 .slider__slider-box {
@@ -725,6 +742,11 @@ h1, h2 {
 	margin-bottom: 100px;
 }
 
+@media screen and (max-width: 848px) {
+	.slider-block__title{
+		margin-bottom: 40px;
+	}
+}
 .slider__bottom {
 	padding: 24px 70px;
 	background-color: #ff4e2e;
