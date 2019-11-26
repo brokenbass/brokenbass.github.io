@@ -14,7 +14,7 @@ $(document).ready(function () {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: true,
+                    dots: true
                     // prevArrow: false,
                     // nextArrow: false
                 }
@@ -25,7 +25,8 @@ $(document).ready(function () {
                     slidesToShow: 2,
                     slidesToScroll: 1,
                     prevArrow: false,
-                    nextArrow: false
+                    nextArrow: false,
+                    dots: true
                 }
             },
             {
@@ -34,7 +35,8 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     prevArrow: false,
-                    nextArrow: false
+                    nextArrow: false,
+                    dots: true
                 }
             }
         ]
