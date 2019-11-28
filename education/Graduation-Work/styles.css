@@ -617,7 +617,6 @@ h1, h2 {
 		font-weight: bold;
 		line-height: 1.106;
 		text-align: center;
-
 	}
 
 	.slider-block__slider-content {
@@ -715,9 +714,7 @@ h1, h2 {
 		padding: 0 20px;
 	}
 
-	slider-block__slider-content {
-		padding: 0 20px;
-	}
+
 }
 
 .slider__slider-box {
@@ -1008,11 +1005,19 @@ h1, h2 {
 	z-index: 1000;
 }
 
+.popap__center-popap {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
 .popap__content {
 	background-color: #FFFFFF;
 	width: 300px;
 	border-radius: 5px;
-	margin: 20% auto 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -1102,6 +1107,8 @@ h1, h2 {
 	margin-top: 20px;
 }
 
+
+
 .popap-cost {
 	display: none;
 	position: fixed;
@@ -1113,11 +1120,19 @@ h1, h2 {
 	z-index: 1000;
 }
 
+.popap-cost__center-popap-cost {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+
 .popap-cost__content {
 	background-color: #FFFFFF;
 	max-width: 240px;
 	border-radius: 5px;
-	margin: 20% auto 0;
 	font-size: 20px;
 	color: rgb(137, 147, 173);
 	padding: 15px;
@@ -1194,6 +1209,14 @@ h1, h2 {
 	z-index: 1000;
 }
 
+.popap-order__center-popap-order {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
 .popap-order__form {
 	margin-bottom: 20px;
 	margin-top: 10px;
@@ -1228,7 +1251,6 @@ h1, h2 {
 	background-color: #FFFFFF;
 	max-width: 240px;
 	border-radius: 5px;
-	margin: 20% auto 0;
 	font-size: 20px;
 	color: rgb(137, 147, 173);
 	padding: 15px;
@@ -1267,6 +1289,11 @@ h1, h2 {
 
 .file {
 	display: none;
+}
+
+.fixed {
+	position:fixed;
+	width:100%;
 }
 
 	/*----------------scroll-up---------------*/
