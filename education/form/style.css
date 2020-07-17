@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	background-image: url("img/bg-01.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	background-attachment: fixed;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(23, 55, 56, 0.35);;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+
+.content-wrapper {
+	max-width: 600px;
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 1.2;
+	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.title {
+		font-size: 62px;
+	}
+
+}
+
+.form-wrapper {
+	background-color: #ffffff;
+	border-radius: 14px;
+	padding: 20px ;
+	display: flex;
+	flex-direction: column;
+}
+
+@media (min-width: 768px) {
+	.form-wrapper {
+		padding: 41px 35px 40px;
+	}
+
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+
+.form-lable {
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+
+.form-input {
+	height: 52px;
+	width: 100%;
+	background-color: rgb(227, 234, 234);
+	border-radius: 8px;
+	border: none;
+	font-weight: 500;
+	color: black;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 20px;
+	transition: background-color 0.2s ease-in;
+
+}
+
+.form-input:focus, .form-massage:focus {
+	outline: none;
+	background-color: rgb(190, 236, 236);
+
+}
+
+.form-massage {
+	width: 100%;
+	height: 170px;
+	background-color: rgb(227, 234, 234);
+	border-radius: 8px;
+	border: none;
+	font-weight: 500;
+	color: black;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px 20px;
+	resize: vertical;
+	transition: background-color 0.2s ease-in;
+}
+
+.form-submit {
+	width: 100%;
+	height: 52px;
+	border-radius: 8px;
+	background-color: rgb(18, 171, 140);
+	border: none;
+	color: rgb(255, 255, 255);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	cursor: pointer;
+}
