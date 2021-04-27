@@ -1,0 +1,92 @@
+body{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+h2{
+	text-align: center;
+}
+.add-todo-wrapper{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(135, 245, 226);
+	padding: 30px;
+}
+
+#description-task{
+	width: 300px;
+	height: 40px;
+	padding: 3px 5px;
+	border-radius: 8px;
+	border: none;
+	background-color: #F5FFFA;
+}
+
+#add-task-btn{
+	width: 150px;
+	height: 50px;
+	border-radius: 8px;
+	border: none;
+	background-color: #FFFAFA;
+	margin-left: 25px;
+}
+.todo-item{
+	display: flex;
+	flex-direction: row;
+	background-color: rgb(135, 245, 226);
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.discription{
+	width: 310px;
+	padding: 8px 10px;
+	font-size: 24px;
+	background-color: #F5FFFA;
+}
+.buttons{
+	display: flex;
+	align-items: center;
+}
+.btn-complete{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	margin-left: 20px;
+	align-items: center;
+	vertical-align: middle;
+
+}
+.btn-delete{
+	background-color: crimson;
+	border: none;
+	color: #ffffff;
+	width: 110px;
+	height: 30px;
+	align-items: center;
+	vertical-align: middle;
+	display: flex;
+	
+}
+
+.checked{
+	background-color: rgb(201, 201, 201) !important;
+	color: rgb(61, 63, 61);
+	opacity: 50%;
+}
+.todo-item.delition{
+	animation: opacity 0.4s ease-in-out;
+}
+
+@keyframes opacity {
+	form {
+		opacity: 1;
+	}
+
+	to {
+		opacity: 0;
+	}
+		
+	
+}
